@@ -1,3 +1,6 @@
+/*Google Fonts Script*/
+  @import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Orbit&family=Permanent+Marker&display=swap');
+
 * {
     background-color: #00c9b7;
 }
@@ -11,4 +14,12 @@
 
 #quiz-logo img {
     max-width: 40%;
+}
+
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    display: flex;
+    justify-content: center;
+    
 }
