@@ -1,3 +1,11 @@
+/**
+ * All quiz questions were taken from https://groupgames101.com/80s-trivia-questions-and-answers/?utm_content=cmp-true
+ * https://parade.com/1075273/jessicasager/90s-trivia/
+ * https://antimaximalist.com/2000s-trivia/
+ * https://www.boredpanda.com/2000s-trivia/?utm_source=google&utm_medium=organic&utm_campaign=organic
+ */
+
+
 const questions = [
     {
         numb: 1,
@@ -340,5 +348,301 @@ const questions = [
             "The Mistery Machine"
         ]
     },
-    
+    {
+        numb: 31,
+        question: "Which footwear company became hugely popular in the 80's after the popularity of punk rock?",
+        answer: "Doc Martens",
+        options: [
+            "Buffalo",
+            "Doc Martens",
+            "Peeny Loafers",
+            "Lotto"
+        ]
+    },
+    {
+        numb: 31,
+        question: "Who was the lead actor in the popular 2003 comedy 'School of Rock?'",
+        answer: "Jack Black",
+        options: [
+            "Ben Stiller",
+            "Will Ferrel",
+            "Adam Sandler",
+            "Jack Black"
+        ]
+    },
+    {
+        numb: 32,
+        question: "What 00's rock band had a breakout hit with their song, 'Sugar, We're Going Down?'",
+        answer: "Fall Out Boy",
+        options: [
+            "Fall Out Boy",
+            "30 Seconds to Mars",
+            "Panic! at the Disco",
+            "Good Charlotte"
+        ]
+    },
+    {
+        numb: 33,
+        question: "What 00's medical drama popularized the word 'Seriously?'",
+        answer: "Grey's Anatomy",
+        options: [
+            "Grey's Anatomy",
+            "Private Practice",
+            "Nip/Tuck",
+            "House"
+        ]
+    },
+    {
+        numb: 34,
+        question: "What singer was introduced to the world in 2008 with the hit song 'Just Dance'",
+        answer: "Lady Gaga",
+        options: [
+            "Katy Perry",
+            "Private Practice",
+            "Kelly Clarkson",
+            "Taylor Swift"
+        ]
+    },
+    {
+        numb: 35,
+        question: "Who was the top-selling artist of the 00's?",
+        answer: "Eminem",
+        options: [
+            "Beyoncé",
+            "Usher",
+            "Eminem",
+            "Britney Spears"
+        ]
+    },
+    {
+        numb: 36,
+        question: "What year was the first iPhone released?",
+        answer: "2007",
+        options: [
+            "2005",
+            "2006",
+            "2007",
+            "2008"
+        ]
+    },
+    {
+        numb: 37,
+        question: "What was the shorthand term used to reference the year 2000?",
+        answer: "Y2K",
+        options: [
+            "Z2Y",
+            "K1Y",
+            "Y2K",
+            "W2Y"
+        ]
+    },
+    {
+        numb: 38,
+        question: "What was the highest-grossing film of the 00's?",
+        answer: "Avatar (2009)",
+        options: [
+            "The Lord of the Rings: The Return of the King (2003)",
+            "Pirates of the Caribbean: Dead Man's Chest (2006)",
+            "The Dark Knight (2008)",
+            "Avatar (2009)"
+        ]
+    },
+    {
+        numb: 39,
+        question: "Which boy band announced their breakup in 2002",
+        answer: "'NSYNC",
+        options: [
+            "Backstreet Boys",
+            "'NSYNC",
+            "New Kids on the Block",
+            "Boyz 2 Men"
+        ]
+    },
+    {
+        numb: 40,
+        question: "What social media platform was founded in 2006 that limits posts to 140 characters?",
+        answer: "Twitter",
+        options: [
+            "Facebook",
+            "Instagram",
+            "Spark",
+            "Twitter"
+        ]
+    },
+    {
+        numb: 41,
+        question: "In 2008, who set the record for the most gold medals won in a single Olympics?",
+        answer: "Michael Phelps",
+        options: [
+            "Usain Bolt",
+            "Michael Phelps",
+            "Simone Biles",
+            "Larisa Latynina"
+        ]
+    },
+    {
+        numb: 42,
+        question: "In 2009, which musician interrupted Taylor Swift's acceptance speech at the MTV Video Music Awards?",
+        answer: "Kanye West",
+        options: [
+            "Kanye West",
+            "Jay-Z",
+            "Eminem",
+            "50 Cent"
+        ]
+    },
+    {
+        numb: 43,
+        question: "In 2006, which country tested its first nuclear weapon, prompting international outrage?",
+        answer: "North Korea",
+        options: [
+            "USA",
+            "North Korea",
+            "Russia",
+            "China"
+        ]
+    },
+    {
+        numb: 44,
+        question: "What social networking website was founded by Tom Anderson and Chris DeWolfe in 2003?",
+        answer: "MySpace",
+        options: [
+            "Flickr",
+            "Orkut",
+            "HI5",
+            "MySpace"
+        ]
+    },
+    {
+        numb: 45,
+        question: "Who won the Nobel Prize in Literature in 2006?",
+        answer: "The turkish writer Orhan Pamuk",
+        options: [
+            "The peruvian writer Mario Vargas Llosa",
+            "The portuguese writer José Saramago",
+            "The turkish writer Orhan Pamuk",
+            "The british writer Doris Lessing"
+        ]
+    },
+    {
+        numb: 46,
+        question: "What major event in European history occurred in 2002?",
+        answer: "The Euro as currency was officially introduced in twelve european countries",
+        options: [
+            "The Schengen Agreement was first signed by five european countries",
+            "The Euro as currency was officially introduced in twelve european countries",
+            "Cyprus and Malta joined the EU along with eight Central and Eastern European countries",
+            "The Lisbon Treaty was signed to make EU more democratic and able to tackle global challenges, such as climate change"
+        ]
+    },
+    {
+        numb: 46,
+        question: "Who was the British Prime Minister when Queen Elizabeth II celebrated her Golden Jubilee in 2002?",
+        answer: "Tony Blair",
+        options: [
+            "Theresa May",
+            "David Cameron",
+            "Margaret Thatcher",
+            "Tony Blair"
+        ]
+    },
+    {
+        numb: 47,
+        question: "In 2000, file sharing service Napster was sued by which veteran rock band citing copyright infringement issues?",
+        answer: "Metallica",
+        options: [
+            "Aerosmith",
+            "The Rolling Stones",
+            "Metallica",
+            "Iron Maiden"
+        ]
+    },
+    {
+        numb: 48,
+        question: "The popular term 'podcast' first came into existence in which year?",
+        answer: "2004",
+        options: [
+            "2000",
+            "2002",
+            "2004",
+            "2006"
+        ]
+    },
+    {
+        numb: 49,
+        question: "In the hit show 'Friends', what was the name of Ross and Rachel's daughter?",
+        answer: "Emma",
+        options: [
+            "Sarah",
+            "Emma",
+            "Laura",
+            "Amy"
+        ]
+    },
+    {
+        numb: 50,
+        question: "What was Dexter's profession in the TV show 'Dexter'?",
+        answer: "Forensic Technician",
+        options: [
+            "Thanatologist",
+            "Medico Legal Expert",
+            "Forensic Technician",
+            "Biologic Anthropologist"
+        ]
+    },
+    {
+        numb: 51,
+        question: "When was the verb 'to google' added to the Oxford English Dictionary?",
+        answer: "2006",
+        options: [
+            "2006",
+            "2007",
+            "2008",
+            "2009"
+        ]
+    },
+    {
+        numb: 52,
+        question: "Which country officially became a democracy on 24 March 2008?",
+        answer: "Buthan",
+        options: [
+            "South Korea",
+            "Buthan",
+            "Nepal",
+            "Tibet"
+        ]
+    },
+    {
+        numb: 53,
+        question: "What was the name of the popular 2009 Quentin Tarantino movie that had only 30 percent of its dialogue in English?",
+        answer: "Inglourious Basterds",
+        options: [
+            "Pulp Fiction",
+            "Django Unchained",
+            "Kill Bill: Vol. 1",
+            "Inglourious Basterds"
+        ]
+    },
+    {
+        numb: 54,
+        question: "Where did the company of 'Facebook' begin in the early 00's?",
+        answer: "At Harvard University",
+        options: [
+            "At Starbucks",
+            "In Mark Zuckerberg's mother's garage",
+            "At Harvard University",
+            "At USA Science & Engineering Festival"
+        ]
+    },
+    {
+        numb: 55,
+        question: "The now iconic line 'Remember remember, the 5th of November', hails from which popular movie of the 00's?",
+        answer: "V for Vendetta (2005)",
+        options: [
+            "The Departed (2006)",
+            "Equilibrium (2002)",
+            "The Prestige (2006)",
+            "V for Vendetta (2005)"
+        ]
+    },
     ]
