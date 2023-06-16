@@ -1,10 +1,10 @@
 /*Google Fonts Script*/
   @import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Orbit&family=Permanent+Marker&display=swap');
 
-* {
-    background-color: #00c9b7;
-}
 
+body {
+    background-color: #ffffff;
+}
 
 
 #quiz-logo {
@@ -22,4 +22,48 @@ h1 {
     display: flex;
     justify-content: center;
     
+}
+
+
+/* Start of Footer Section */
+
+.footer-container {
+    height: 125px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    background-color: #ff2273;
+}
+
+/* Social Media */
+.social-media li {
+    list-style-type: none;
+    display: inline-flex;
+    position: relative;
+    padding: 0.9vh;
+}
+
+.networks i {
+    color: #ffffff;
+    font-size: 45px;
+}
+
+.networks i:hover {
+    color: #00bfc3;
+}
+
+/*Copyrights*/
+.copyrights {
+    font-size: 13px;
+    letter-spacing: 0.1em;
+}
+
+.copyrights a {
+    text-decoration: none;
+}
+
+.copyrights a:hover {
+    border-bottom: 1px solid #ffff;
 }
