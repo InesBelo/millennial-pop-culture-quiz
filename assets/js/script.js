@@ -1,3 +1,4 @@
+/** Quiz Questions List */
 const questions = [
     {
         question: "What was the name of the popular 2009 Quentin Tarantino movie that had only 30% of its dialogue in English?",
@@ -458,9 +459,27 @@ const questions = [
         { text: "Tibet", correct: false},
         ]
     },
-]
+];
 
+const questionElement = document.getElementById("question");
+const answerButtons = document.getElementById("answer-btns");
+const nextButton = document.getElementById("next-btn");
 
+let currentQuestionIndex = 0;
+let score = 0;
+
+function startQuiz() {
+    currentQuestionIndex = 0;
+    score = 0;
+    nextButton.innerHTML = 'Next';
+    showQuestion(); 
+}
+
+function showQuestion() {
+    let currentQuestion = questions[currentQuestionIndex];
+    let questionNo = currentQuestionIndex + 1;
+    questionElement.innerHTML = questionNo + ". " + currentQuestion.question;
+}
 
 
 
