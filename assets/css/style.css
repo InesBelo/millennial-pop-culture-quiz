@@ -1,4 +1,4 @@
-/*Google Fonts Script*/
+/* Google Fonts Script */
   @import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Orbit&family=Permanent+Marker&display=swap');
 
 
@@ -54,14 +54,16 @@ h1 {
     color: #00bfc3;
 }
 
-/*Copyrights*/
-.copyrights {
+/* Copyrights  - parágrafo continua com linha em baixo. verificar*/
+.copyrights  {
     font-size: 13px;
     letter-spacing: 0.1em;
+    color: #ffffff;
 }
 
 .copyrights a {
     text-decoration: none;
+    color: #ffffff;
 }
 
 .copyrights a:hover {
