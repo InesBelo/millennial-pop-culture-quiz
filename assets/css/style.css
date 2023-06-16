@@ -32,19 +32,19 @@ body {
     width: 100%;
 }
 
-button {
-    background-color:#525252;
-    color:#F5F5F5;
-    padding: .9em;
-    font-size: 1em;
+/* Start Quiz Button */
+.start-btn button {
+    font-size: 30px;
+    outline: none;
+    padding: 20px 30px;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
-form>button:hover {
-    background-color:#AC3B61;
-    color:#F5F5F5;
-    cursor: pointer;
-    border:#AC3B61;
-}
+/* End of Presentation Section*/
+
+
+
 
 
 
@@ -55,7 +55,6 @@ form>button:hover {
 
 .footer-container {
     height: 125px;
-    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
