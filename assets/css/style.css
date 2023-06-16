@@ -1,6 +1,11 @@
 /* Google Fonts Script */
   @import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Orbit&family=Permanent+Marker&display=swap');
 
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
 body {
     background-color: #ffffff;
@@ -13,16 +18,37 @@ body {
 }
 
 #quiz-logo img {
-    max-width: 40%;
+    max-width: 50%;
 }
 
 
-h1 {
-    font-family: 'Permanent Marker', cursive;
-    display: flex;
-    justify-content: center;
-    
+/* Presentation Section */
+
+.presentation {
+    background-color: blue;
+    text-align: center;
+    padding: 5vh;
+    margin: 0 auto;
+    width: 100%;
 }
+
+button {
+    background-color:#525252;
+    color:#F5F5F5;
+    padding: .9em;
+    font-size: 1em;
+}
+
+form>button:hover {
+    background-color:#AC3B61;
+    color:#F5F5F5;
+    cursor: pointer;
+    border:#AC3B61;
+}
+
+
+
+
 
 
 /* Start of Footer Section */
@@ -69,3 +95,4 @@ h1 {
 .copyrights a:hover {
     border-bottom: 1px solid #ffff;
 }
+/* End of Footer Section */
